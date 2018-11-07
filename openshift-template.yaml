@@ -8,5 +8,5 @@ spec:
   tags:
   - from:
       kind: DockerImage
-      name: docker.io/outtherelabs/jenkins-slave-rust:v1.26.0
+      name: docker.io/outtherelabs/jenkins-slave-rust:v1.30.0
     name: latest
