@@ -2,7 +2,7 @@ FROM openshift/jenkins-slave-base-centos7
 
 ENV CARGO_HOME=/usr/local/cargo \
     PATH=/usr/local/cargo/bin:$PATH \
-    RUST_VERSION=1.31.1
+    RUST_VERSION=1.34.0
 
 RUN set -eux; \
     yum install -y file make gcc-c++ openssl-devel postgresql-devel; \
